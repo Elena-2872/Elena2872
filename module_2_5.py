@@ -5,7 +5,7 @@ def get_matrix(n, m, value):
         matrix.append([])   # добавляем список
     for j in range(m):
         matrix[i].append(value) # пишем в список значение
-    print(matrix)
+    print([matrix[i], matrix[j]])
 get_matrix(2, 2, 10)
 
 
